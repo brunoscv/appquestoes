@@ -13,14 +13,14 @@ $config['tipoQuestoes'] = array("1"=>"Multipla Escolha", "2"=>"V/F");
 $config['dificuldadeQuestoes'] = array("1"=>"Baixa", "2"=>"Média", "3"=>"Alta");
 
 
-$config['smtp_host'] = "mail.clipdata.com.br";
+$config['smtp_host'] = "";
 $config['smtp_port'] = "587";
-$config['smtp_user'] = "naoresponda@clipdata.com.br";
-$config['smtp_pass'] = "JncUz8QyTQ";
+$config['smtp_user'] = "";
+$config['smtp_pass'] = "";
 
 $config['sms_url'] 	 	= FALSE;
 $config['sms_user']		= "25"; //codigo
-$config['sms_pass'] 	= "ca73ab65568cd125c2d27a22bbd9e863c10b675d"; //token
+$config['sms_pass'] 	= ""; //token
 
 /* End of file config.php */
 /* Location: ./application/config/my_config.php */
